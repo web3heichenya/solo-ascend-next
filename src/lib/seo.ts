@@ -110,6 +110,7 @@ export const rootLayoutMetadata: Metadata = {
   authors: siteConfig.authors,
   creator: siteConfig.creator,
   publisher: siteConfig.publisher,
+  icons: ['/icons/logo.png'],
   robots: {
     index: true,
     follow: true,

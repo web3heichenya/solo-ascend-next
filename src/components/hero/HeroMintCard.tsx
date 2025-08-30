@@ -8,6 +8,7 @@ import { Loader2 } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { showToast } from '@/lib/toast';
 import { HeroMintCardProps } from '@/types';
+import Image from 'next/image';
 
 export const HeroMintCard = memo(function HeroMintCard({ className }: HeroMintCardProps) {
   const { t } = useTranslation();
@@ -50,7 +51,7 @@ export const HeroMintCard = memo(function HeroMintCard({ className }: HeroMintCa
 
       {/* Hero Icon Placeholder */}
       <div className="cyber-border bg-cyber-dark/30 mx-auto flex h-32 w-32 items-center justify-center rounded md:h-40 md:w-40">
-        <div className="text-5xl opacity-60 md:text-6xl">⚔️</div>
+        <Image src="/icons/logo.png" alt="" layout="fill" objectFit="contain" />
       </div>
 
       <div className="space-y-4">
