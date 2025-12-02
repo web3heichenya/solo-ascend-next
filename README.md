@@ -40,8 +40,8 @@ A Next.js-based Web3 gaming platform featuring NFT heroes, forging mechanics, an
 1. Clone the repository:
 
 ```bash
-git clone [repository-url]
-cd solo-ascend/next
+git clone https://github.com/web3heichenya/solo-ascend-next
+cd solo-ascend-next
 ```
 
 2. Install dependencies:
